@@ -29,4 +29,10 @@ multiple lines tesk
 ```py
 Hello = "Hello"; World = "World"; system.printLine(Hello+" "+World+"!")
 ```
-
+import library/package
+```js
+require "name" :-: name="Lib"
+require "url" :-: name="Test" // import online package
+print(Lib)
+print(Test.foo())
+```
