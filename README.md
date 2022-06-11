@@ -36,3 +36,15 @@ require "url" :-: name="Test" // import online package
 print(Lib)
 print(Test.foo())
 ```
+funcs
+```sh
+func foo():{
+	print("Hello foo")
+}
+
+func bar(text):{
+	print("Hello "+text)
+}
+foo()
+bar("World!")
+```
